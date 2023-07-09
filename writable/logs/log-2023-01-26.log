@@ -1,0 +1,73 @@
+CRITICAL - 2023-01-26 07:30:45 --> Invalid file: "data_pegawai.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_pegawai.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('data_pegawai', [], true)
+ 3 APPPATH\Controllers\AppController.php(47): view('data_pegawai')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->data_pegawai()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:30:51 --> Invalid file: "data_pegawai.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_pegawai.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('data_pegawai', [], true)
+ 3 APPPATH\Controllers\AppController.php(47): view('data_pegawai')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->data_pegawai()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:51:18 --> Undefined variable $nip
+in APPPATH\Views\data_pegawai.php on line 27.
+ 1 APPPATH\Views\data_pegawai.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nip', 'APPPATH\\Views\\data_pegawai.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data_pegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('data_pegawai', [], true)
+ 5 APPPATH\Controllers\AppController.php(53): view('data_pegawai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->data_pegawai()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:53:10 --> Undefined variable $nip
+in APPPATH\Views\data_pegawai.php on line 27.
+ 1 APPPATH\Views\data_pegawai.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nip', 'APPPATH\\Views\\data_pegawai.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data_pegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('data_pegawai', [], true)
+ 5 APPPATH\Controllers\AppController.php(53): view('data_pegawai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->data_pegawai()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:56:03 --> Undefined variable $nip
+in APPPATH\Views\data_pegawai.php on line 27.
+ 1 APPPATH\Views\data_pegawai.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nip', 'APPPATH\\Views\\data_pegawai.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data_pegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('data_pegawai', [], true)
+ 5 APPPATH\Controllers\AppController.php(53): view('data_pegawai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->data_pegawai()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:56:26 --> Attempt to read property "tgl_lahir" on array
+in APPPATH\Views\data_pegawai.php on line 30.
+ 1 APPPATH\Views\data_pegawai.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_lahir" on array', 'APPPATH\\Views\\data_pegawai.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data_pegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('data_pegawai', [], true)
+ 5 APPPATH\Controllers\AppController.php(53): view('data_pegawai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->data_pegawai()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:57:22 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Views\data_pegawai.php on line 30.
+ 1 APPPATH\Views\data_pegawai.php(30): date('d-m-Y', '2006-01-04')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data_pegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('data_pegawai', [], true)
+ 5 APPPATH\Controllers\AppController.php(53): view('data_pegawai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->data_pegawai()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
