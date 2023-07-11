@@ -42,7 +42,7 @@
         Sudah memiliki akun? <a href="<?= base_url('login') ?>" style="text-decoration: none;">Masuk Disini</a>
     </div>
 </form>
-    <p class="md-5 mb-0 text-center text-white">Copyright &copy; Penguin Logistics 2023</p>
+    <p class="md-5 mb-0 text-center text-white">Copyright &copy; Muhammad Daffa 2023</p>
 </div>
 <script type="text/javascript" src="<?= base_url('assets/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
 </body>
